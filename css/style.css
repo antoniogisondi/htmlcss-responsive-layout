@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* HEADER STYLE */
 header{
     margin: 0 auto;
     background-color: rgba(0,132,253,255);
@@ -27,7 +27,9 @@ header{
     height: 100px;
     background-color: violet;
 }
+/* END HEADER STYLE */
 
+/* MAIN STYLE */
 .container{
     width: 100%;
     margin: 0 auto;
@@ -71,7 +73,9 @@ header{
     margin: 30px 50px;
     border-radius: 25px;
 }
+/* END MAIN STYLE */
 
+/* FOOTER STYLE */
 footer{
     margin: 0 auto;
     background-color: rgba(51,51,51,255);
@@ -87,4 +91,32 @@ footer{
     width: 100%;
     height: 200px;
     background-color: green;
+}
+/* END FOOTER STYLE */
+
+/* RESPONSIVE SOLUTIONS (first mobile)*/
+@media screen and (min-width:768px){
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        max-width:990px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .f-row{
+        max-width: 990px;
+    }
+
+    .col-double{
+        width: calc(100% / 3 * 2);
+    }
+
+    .col-30{
+        width: 30%;
+    }
+
 }
