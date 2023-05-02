@@ -5,14 +5,14 @@
 }
 
 header{
-    min-width: 480px;
-    height:100px ;
+    margin: 0 auto;
     background-color: rgba(0,132,253,255);
 }
 
-.row{
-    width: 100%;
+.h-row{
+    max-width: 767px;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -28,6 +28,63 @@ header{
     background-color: violet;
 }
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
 
+.second, .fourth, .sixth{
+    background-color: rgba(151,146,228,255);
+}
 
+.row{
+    max-width: 767px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.col-double{
+    height: 500px;
+    background-color: rgba(181,221,255,255);
+    margin: 30px 50px;
+    border-radius: 25px;
+}
+
+.col-30{
+    height: 300px;
+    background-color: rgba(181,221,255,255);
+    margin: 30px 50px;
+    border-radius: 25px;
+}
+
+.col{
+    background-color: white;
+    height: 500px;
+    margin: 30px 50px;
+    border-radius: 25px;
+}
+
+.violet-col{
+    background-color: rgba(151,146,228,255);
+    height: 300px;
+    margin: 30px 50px;
+    border-radius: 25px;
+}
+
+footer{
+    margin: 0 auto;
+    background-color: rgba(51,51,51,255);
+}
+
+.f-row{
+    max-width: 767px;
+    display: flex;
+    justify-content: center;
+}
+
+.f-col{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
