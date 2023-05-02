@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-width: 480px;
+    height:100px ;
+    background-color: rgba(0,132,253,255);
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-left{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+
+.col-right{
+    width: 150px;
+    height: 100px;
+    background-color: violet;
+}
+
+
+
+
