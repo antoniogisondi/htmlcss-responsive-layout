@@ -306,7 +306,7 @@ header{
 .third-trasparent-col p{
     padding: 25px 0;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .third-trasparent-col button{
@@ -394,10 +394,16 @@ footer{
 
     .violet-col{
         width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
     }
-    
+    .violet-col img{
+        width: 100%;
+        border-radius: 50%;
+    }
     .white-col{
-        width: calc(100% / 3);
+        max-width: calc(100% / 2 - 40px);
         margin: 20px 20px;
     }
 
@@ -405,11 +411,11 @@ footer{
         max-width:990px;
         display: flex;
         flex-direction: row;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .second-trasparent-col{
-        width: 50%;
+        width: 100%;
         margin: 20px 50px;
     }
 
@@ -420,7 +426,7 @@ footer{
 
 
 
-/* @media screen and (min-width:991px){
+@media screen and (min-width:991px){
     .container{
         width: 100%;
     }
@@ -471,4 +477,4 @@ footer{
     .third-trasparent-col{
         width: 50%;
     }
-} */
+}
